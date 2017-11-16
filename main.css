@@ -1,20 +1,30 @@
-/*Set fonts, spacing, etc.*/
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 3em;
-    line-height: 1.5;
-    padding: 2em 2em 4em;
-}
-
 /*Make headers pink and set weight and height*/
-.pink{
+.pink {
     color: #e26563;
-    font-weight: 600;
-    line-height: 1.3;
 }
 
-/*Set color of hyperlinks*/
-a {
-    color: #0083e8;
+/*Add responsive typography*/
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  padding: 2em 2em 4em;
+  font-weight: 500;
 }
 
+@media (min-width:576px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width:768px)  {
+  html {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width:992px) {
+  html {
+    font-size: 1.2rem;
+  }
+}
