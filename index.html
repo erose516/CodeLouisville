@@ -24,23 +24,59 @@
     <body>
         
         <h1 class="cover-heading pink text-center">Handy Miss</h1>
-        <p class="text-center">Handy Miss is here to help with your household projects! Serving all of Kentuckiana.</p>
+        <p class="text-center">Handy Miss is here to help with your household projects!</p>
         <p class="text-center callButton"><span>You'll hear from Handy Miss soon!</span></p>
         
         <div class="container">
           <div class="row">
-            <div class="col-md col-xs-12">
-              Bacon ipsum dolor amet sausage buffalo short loin, mollit rump in shankle. In pancetta pariatur in minim beef ribs spare ribs tenderloin. Nostrud ipsum minim short loin laboris commodo chuck enim. Ullamco consectetur rump short ribs hamburger jowl strip steak buffalo tail sint aliqua reprehenderit pancetta lorem tongue.
+            <div class="col-sm-3 col-xs-12">
+                <div class="card text-white bg-secondary mb-3">
+                <img class="card-img-top img-fluid" src="./Louskylinenight1.jpg" alt="Skyline of Louisville">
+                 <div class="card-body">
+                    <h4 class="card-title text-center">Service Area</h4>
+                    <p class="card-text text-center">All of Kentuckiana!</p>
+                  </div>
+                </div>
             </div>
-            <div class="col-md col-xs-12">
-              Jowl short loin salami ea lorem. Pork enim short ribs, dolore cupim filet mignon frankfurter mollit ut. Kielbasa filet mignon tail ribeye jerky. Adipisicing capicola veniam, consectetur salami anim exercitation irure duis esse sed ribeye cupidatat cow. Aute veniam kielbasa boudin, mollit turducken pork chop tenderloin. 
+            <div class="col-sm-6 col-xs-12">
+                <div class="card text-white bg-secondary mb-3">
+                 <div class="card-body">
+                    <h4 class="card-title text-center">About Handy Miss</h4>
+                    <p class="card-text">As a pre-teen girl before the days of cell phones, a young Handy Miss wanted a phone in her room. "But you don't have a telephone jack," her mom pointed out. "If I install a phone jack," asked Handy Miss, "can I have a phone then?" Mom smiled. "Sure," she replied. After raiding the toolbox, taking apart a phone jack in another room and raiding it for parts, Handy Miss had a working phone jack and became a do-it-yourself-er!</p>
+                  </div>
+                </div>
             </div>
-            <div class="col-md col-xs-12">
-              Buffalo culpa eiusmod drumstick sint occaecat strip steak id cupidatat. Exercitation tri-tip biltong elit jerky buffalo, excepteur jowl pastrami salami nisi aliquip. Buffalo meatball laboris magna eu culpa. Swine nulla shankle, venison duis sed ut laboris in pork.
+            <div class="col-sm-3 col-xs-12">
+                  <div class="card text-white bg-secondary mb-3">
+                  <img class="card-img-top" src="./Phone.jpg" alt="Picture of a phone">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">Call Now</h4>
+                    <p class="card-text text-center">502-434-0358</p>
+                  </div>
+                  </div>
             </div>
           </div>
-        </div>
+        <div class="row">
+            <div class="col-12">
+            <!--Form for submitting name, email, and project info-->
+              <form action="index.html" method="post">
+                <h2 class="cover-heading text-center">What project can Handy Miss complete for you?</h2>
+                <fieldset>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="customer_name">
 
+                  <label for="mail">Email:</label>
+                  <input type="email" id="mail" name="customer_email">
+
+                  <label for="project">Project Description:</label>
+                  <input type="text" id="project" name="project_descrip">
+                  <button type="submit">Submit</button>
+                </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+            
       <!--Link to jQuery-->
       <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
       
@@ -54,5 +90,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         
     </body>
+    
+    <div class="footer"><footer>Copyright 2017</footer></div>
     
 </html>
